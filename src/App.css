@@ -56,7 +56,6 @@ h1 {
   border: none;
   padding: 0.55rem;
   cursor: pointer;
-  
 }
 
 .Todo {
@@ -88,4 +87,8 @@ img{
 
 img:hover{
   transform:scale(1.5);
+}
+
+.fa:hover, .todo-btn:hover{
+  color: yellow;
 }
