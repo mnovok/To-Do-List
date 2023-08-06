@@ -49,7 +49,7 @@ export const ToDoWrapper = () => {
 
   return (
     <div>
-        <img src={require('../images/Ditto.png')} alt='Ditto'/>
+        <img className='image' src={require('../images/Ditto.png')} alt='Ditto'/>
         <div className='TodoWrapper'>
             <h1>Just Do It!</h1>
             <ToDoForm addTodo={addTodo}/>

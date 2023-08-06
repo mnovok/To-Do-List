@@ -14,7 +14,8 @@ export const ToDoForm = ({addTodo}) => {
 
   return (
     <form className='ToDoForm' onSubmit={handleSubmit}>
-        <input type='text' 
+        <input autoFocus
+        type='text' 
         className='todo-input' 
         value={value}
         placeholder='What to do, Ditto?'

@@ -9,9 +9,9 @@
 
 body {
   background: #a25ce3;
-  display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 
 .App {
@@ -32,7 +32,7 @@ h1 {
 }
 
 .TodoForm {
-  width: 100%;
+  width: 50%;
 }
 
 .todo-input {
@@ -79,13 +79,19 @@ h1 {
   text-decoration: line-through;
 }
 
-img{
-  width:150px;
-  height:150px;
-  margin:0 auto;
+.image{
+  width:170px;
+  height:170px;
+  margin:5 auto;
+  margin-top: 50px;
+  @media(max-width: 704px){
+    margin-top: 60%;
+    width:120px;
+    height:120px
+  }
 }
 
-img:hover{
+.image:hover{
   transform:scale(1.5);
 }
 
