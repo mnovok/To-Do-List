@@ -95,7 +95,7 @@ h1 {
   transform:scale(1.5);
 }
 
-.fa:hover, .todo-btn:hover, .completed:hover{
+.fa:hover, .todo-btn:hover, .completed:hover, .signup-btn:hover{
   color: yellow;
 }
 
@@ -213,6 +213,8 @@ h2{
   margin: 1rem;
   width: 70%;
 }
+
+
 
 #signup-text{
   color: #c5aeff;
