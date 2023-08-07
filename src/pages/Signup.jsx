@@ -1,13 +1,10 @@
 import React from 'react';
 import '../App.css';
-import GlobalStyle from '../styles/GlobalStyle';
+import SignupForm from '../components/SignupForm';
 
 function Signup(){
   return (
-    <div>
-            <GlobalStyle/>
-    </div>
-
+    <SignupForm/>
   )
 }
 
