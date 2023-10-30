@@ -12,7 +12,7 @@ const NavBarWrapper = styled.nav`
     align-items: center;
     background: #000;
     padding: 1rem 3rem;
-    position: relative;
+    position: absolute;
     display: flex;
     overflow: hidden;
     flex-direction: row;
